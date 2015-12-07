@@ -1,3 +1,5 @@
+import os;
+
 def getName(path):
     return getFullPath(path).split('\\')[-1];
 
